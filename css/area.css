@@ -1,0 +1,164 @@
+.area-choice{
+	margin-top: 20px;
+	padding: 5px 0px 10px 10px;
+	border-right: 1px solid #ddd;
+}
+/* 头部 START */
+.area-header{
+	font-size: 14px;
+	padding: 10px 5px;
+	border-bottom: 1px solid #eee;
+}
+.area-current {
+    float: left;
+    display: inline-block;
+    padding: 5px 40px 5px 8px;
+    border-right: 1px solid #ddd;
+}
+.current-enter{
+	font-size: 16px;
+}
+.current-city{
+	font-size: 24px;
+	color: #FF7E00;
+}
+.area-change {
+    display: inline-block;
+    padding: 5px 0px 5px 14px;
+}
+.pronvince-select,.city-select,.area-select{
+	min-width: 100px;
+	margin-right: 5px;
+	padding: 4px 5px;
+	border:1px solid #ddd;
+}
+.btn-sure{
+    color: #fff;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #FF7E00;
+    background-size: 100%;
+    background-image: -moz-linear-gradient(top,#EA7A0C,#FF7E00);
+    background-image: -webkit-linear-gradient(top,#EA7A0C,#FF7E00);
+    background-image: linear-gradient(to bottom,#EA7A0C,#FF7E00);
+}
+a.btn-sure:hover{
+	color: #fff;
+}
+.direct-select{
+	margin-left: 20px;
+}
+.direct-input{
+	width: 180px;
+	padding: 4px 5px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.direct-search {
+    display: inline-block;
+}
+.smalilaty-select {
+	display: none;
+    z-index: 2;
+    position: absolute;
+    width: 243px;
+    height: 180px;
+    overflow: scroll;
+    margin-left: 92px;
+    box-shadow: 2px 2px 2px #ddd;
+    background-color: #eee;
+    opacity: 0.6;
+}
+.display-block{
+	display: block;
+}
+.smalilaty-list {
+    padding: 2px;
+    cursor: pointer;
+ }
+ .smalilaty-list:hover{
+ 	background-color: #ddd;
+ }
+/* 头部 END */
+/* 热门城市 START */
+.area-hot {
+    font-size: 14px;
+    padding: 12px 10px 2px 10px;
+    border-bottom: 1px solid #eee;
+    line-height: 30px;
+}
+.area-hot-span{
+	float: left;
+	margin-right: 10px;
+}
+.area-hot-ul{
+	display: inline-block;
+}
+.area-hot-list {
+    float: left;
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    min-width: 40px;
+    max-width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 12px;
+}
+/* 热门城市 END */
+/* 按拼音首字母选择 START */
+.area-choice-first{
+	font-size: 14px;
+    padding: 12px 10px 2px 10px;
+    line-height: 30px;
+}
+.area-letter-list{
+	float: left;
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+    margin-right: 12px;
+}
+.area-letter-city{
+	font-size: 15px;
+	padding: 8px 10px 20px 10px;
+}
+.letter-item {
+    height: 20px;
+    width: 22px;
+    padding: 0px 4px 10px 4px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #eee;
+    vertical-align: top;
+}
+.letter-city-list{
+	margin-bottom: 12px;
+	padding: 12px 10px 2px 10px;
+    line-height: 30px;
+}
+.city-content-items {
+	vertical-align: top;
+    display: inline-block;
+    width: 1100px;
+    margin-left: 20px;
+}
+.city-item{
+	display: inline-block;
+	font-size: 15px;
+    color: #333;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 20px;
+}
+.hot-city{
+	font-weight: bold;
+}
+.hover{
+	background-color: #6586CB;
+	color: #fff;
+}
+/* 按拼音首字母选择 END */

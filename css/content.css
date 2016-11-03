@@ -1,0 +1,430 @@
+
+/* 生活服务顶部选择项目 START */
+.sh-choice {
+    padding: 8px 35px 8px 45px;
+}
+.sh-choice-list {
+    float: left;
+    width: 125px;
+    padding: 0 30px;
+}
+.sh-choice-list a img{
+	width: 40px;
+	height: 35px;
+	margin-bottom: 8px;
+}
+.choice-item{
+	font-size: 16px;
+	color: #565353;
+}
+/* 顶部选择下对应的选择项目 START */
+.choice-content {
+    width: 940px;
+    background: rgba(0,0,0,0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+    padding: 0px 190px 0px 70px;
+    position: absolute;
+    z-index: 2;
+}
+.list-content-c{
+    display: none;
+}
+.content-list {
+    float: left;
+    padding: 4px;
+    width: 130px;
+}
+.list-item{
+	font-size: 14px;
+	color: #fff;
+	line-height: 25px;
+}
+/* 顶部选择下对应的选择项目 END */
+/* 生活服务顶部选择项目 END */
+
+/* 大图滚动 热门商品 START */
+.sh-scroll {
+    margin-top: -10px;
+}
+.hot-goods{
+	float: right;
+	width: 240px;
+	margin-left: 10px;
+	border: 1px solid #eee;
+}
+.recommend{
+	padding: 10px;
+}
+.recommend a img{
+	width: 222px;
+	height: 205px;
+}
+.border-bottom{
+	border-bottom: 1px solid #eee;
+}
+/* yz-scroll START */
+.bigblock-swiper-container {
+    height: 450px;
+    width: 948px;
+}
+.yz-scroll{
+    margin-top: 10px;
+}
+.yz-scroll img{
+    width: 100%;
+    height: 100%;
+}
+.swipers-pagination {
+    position: absolute;
+    bottom: 20px;
+    text-align: right;
+    width: 100%;
+    height: 20px;
+    z-index:2;
+}
+.swipers-pagination .swiper-pagination-switch {
+    width: 16px;
+    height: 16px;
+    margin: 0px 8px;
+    cursor: pointer;
+    display: inline-block;
+    background: url("../images/pagination.png");
+}
+.swipers-pagination .swiper-active-switch {
+    background: url("../images/pagination_active.png");
+}
+/* yz-scroll END */
+/* 大图滚动 热门商品 END */
+
+/* 人气推荐 热门商品  START */
+.sh-popular{
+    position: relative;
+	margin-top: 30px;
+	margin-bottom: 28px;
+}
+.popular-header{
+	padding: 0 20px;
+}
+.popular-title{
+	font-size: 20px;
+	color: #fe9334;
+	line-height: 22px;
+}
+.popular-border{
+	margin-top: 15px;
+}
+.advblock-swiper-container{
+    height: 225px;
+    margin-top: 10px;
+    width: 1158px;
+    padding-left: 10px;
+}
+.popular-goods {
+    border: 1px solid #fe9334;
+    width: 350px;
+    height: 203px;
+    padding: 10px;
+}
+.popular-img{
+    float: right;
+    width: 205px;
+    height: 205px;
+}
+.popular-intro{
+    float: left;
+    width: 142px;
+    padding-top: 10px;
+}
+.popular-intro-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.popular-intro-exp,.popular-intro-sold{
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 18px;
+}
+.popular-intro-exp {
+    width: 100px;
+    height: 42px;
+}
+.popular-intro-price{
+    font-size: 20px;
+    color: #fe9a42;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.buy-immedistely {
+    padding: 5.5px 29px;
+    border-radius: 20px;
+    border: 1px solid #fa4545;
+    font-size: 14px;
+}
+.arrow-left {
+    display: none;
+    background: no-repeat left top;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -15px;
+    width: 28px;
+    height: 70px;
+    z-index:2;
+}
+.arrow-right {
+    display: none;
+    background: no-repeat left bottom;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -15px;
+    width: 28px;
+    height: 70px;
+    z-index: 2;
+}
+/* 人气推荐 热门商品  END */
+
+
+/* 美食  START */
+.sh-class{
+    margin-top: -10px;
+}
+.sh-class-border{
+    margin-top: -13px;
+}
+.food{
+    background-color: #ffeed8;
+}
+.hotel{
+    background-color: #d8e5fe;
+}
+.KTV{
+    background-color: #d8cefe;
+}
+.sh-class-header{
+    padding: 40px 40px 28px 40px;
+}
+.sh-more{
+    float: right;
+    font-size: 16px;
+}
+.sh-food-more{
+    color: #f87b00;
+}
+.sh-hotel-more{
+    color: #558bff;
+}
+.sh-KTV-more{
+    color: #845eff;
+}
+.header-icon{
+    margin-right: 20px;
+}
+.header-title{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 20px;
+}
+.food-header-title{
+     color: #f87d00;
+}
+.hotel-header-title{
+    color: #558bff;
+}
+.KTV-header-title{
+    color: #845eff;
+}
+.title-exp{
+    font-size: 14px;
+    color: #afaba7;  
+    display: inline-block;
+}
+.content-class-left{
+    float: left;
+    position: relative;
+    z-index: 1;
+    width: 396px;
+    margin-bottom: 60px;
+}
+.left-top-intro{
+    position: absolute;
+    z-index: 2;
+    padding: 20px 5px 20px 25px;
+    width: 366px;
+    height: 144px;
+}
+.left-top-title{
+    font-size: 52px;
+    line-height: 60px;
+    height: 70px;
+    width: 360px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.left-food-title{
+    color: #87490a;
+}
+.left-hotel-title{
+    color: #406ac4;
+}
+.left-KTV-title{
+    color: #6441d7;
+}
+.left-top-price{
+    font-size: 30px;
+    line-height: 32px;
+    height: 42px;
+     width: 360px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.left-food-price{
+    color: #87490a;
+}
+.left-hotel-price{
+    color: #406ac4;
+}
+.left-KTV-price{
+    color: #6441d7;
+}
+.left-top-exp{
+    font-size: 28px;
+    line-height: 30px;
+    width: 360px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.left-food-exp{
+    color: #87490a;
+}
+.left-hotel-exp{
+    color: #406ac4;
+}
+.left-KTV-exp{
+    color: #6441d7;
+}
+.content-class-right{
+    float: right;
+    width: 799px;
+}
+.content-right-list{
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1px;
+}
+.list-goods-img{
+    width: 258px;
+}
+.list-goods-intro {
+    width: 236px;
+    height: 57px;
+    background-color: #fff;
+    border: 1px solid #eeeeee;
+    padding: 9px 5px 12px 15px;
+}
+.intro-goods-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1e1818;
+    line-height: 16px;
+    width: 203px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.intro-goods-exp{
+    font-size: 12px;
+    color: #5e5e5e;
+    line-height: 14px;
+    width: 203px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.intro-goods-price{
+    font-size: 14px;
+    font-weight: bold;
+    color: #f87d00;
+    line-height: 14px;
+    width: 203px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.intro-hotel-price{
+    color: #558bff;
+}
+.intro-food-price{
+    color: #ff7200;
+}
+.intro-KTV-price{
+    color: #8e5eff;
+}
+.list-goods-buy {
+    display: none;
+    padding: 29px 88px;
+    border: 1px solid #eee;
+    font-size: 20px;
+    z-index: 2;
+    color: #FEDDC0;
+    position: absolute;
+    bottom: 2px;
+}
+.list-food-buy{
+    background-color: #ff7200;
+}
+.list-hotel-buy{
+    background-color: #558bff;
+}
+.list-KTV-buy{
+    background-color: #8e5eff;
+}
+.list-goods-buy:hover{
+    color: #fff;
+}
+/* 美食  END */
+
+/* 左侧固定导航栏  START */
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.sh-elevator{
+    width: 50px;
+    position: fixed;
+    top: 20%;
+    z-index: 10;
+    position: fixed !important;
+}
+.sh-elevator ul{
+    background-color: rgba(255,255,255,.8);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccffffff, endColorstr=#ccffffff);
+}
+.elevator-list-item{
+    position: relative;
+}
+.elevator-item-select{
+    display: none;
+    position: absolute;
+    top: -25px;
+}
+/* 左侧固定导航栏  END */
+.display-block{
+    display: block;
+}

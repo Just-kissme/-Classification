@@ -1,0 +1,53 @@
+/* ================
+ * 重新定义html元素 
+ * ================ */
+ html,body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,table,th,td{
+ 	font-size: 1em;
+ 	font-weight: normal;
+ 	font-style: normal;
+ }
+ strong{
+ 	font-weight: bold;
+ }
+ ul,ol{
+ 	list-style: none outside none;
+ }
+ fieldset,img{
+ 	vertical-align: middle;
+ 	border: medium none;
+ }
+ caption,th{
+ 	text-align: left;
+ }
+ table{
+ 	border-spacing: 0;
+ 	border-collapse: collapse;
+ }
+ body{
+ 	font:Arial,Verdana,'宋体','Lucida Grande', 'Lucida Sans Unicode', Helvetica, sans-serif;
+ 	min-width: 1200px;
+ 	color: #666;
+	/*  background: #fff none repeat scroll 0 0;*/
+ }
+input,select,textarea{
+	font: 12px/20px Tahoma, Helvetica, Arial, '\5b8b\4f53', sans-serif;
+}
+i,cite,em{
+	font-style: normal;
+}
+input,button,select,textarea{
+	outline: none
+}
+html{
+	min-height: 101%;
+}
+/* 链接 */
+a{
+	-webkit-tra
+}
+
+

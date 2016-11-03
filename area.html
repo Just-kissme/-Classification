@@ -1,0 +1,982 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>地区选择</title>
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/content.css" type="text/css">
+	<link rel="stylesheet" href="css/area.css" type="text/css">
+</head>
+<body>
+	<div class="wrapper area-choice">
+		<!-- 头部 START -->
+		<div class="area-header">
+			<div class="area-current">
+				<span class="current-enter">进入</span>
+				<span class="current-city">广州</span>
+			</div>
+			<form action="" class="area-change">
+				<span class="choice-way">按省份选择：</span>
+				<select name="" id="pronvince-select" class="pronvince-select">
+					<option value="请选择省">请选择省</option>
+				</select>
+				<select name="" id="city-select" class="city-select">
+					<option value="请选择市">请选择市</option>
+				</select>
+				<select name="" id="area-select" class="area-select">
+					<option value="全部">全部</option>
+				</select>
+				<a href="#" class="btn-sure select-btn">确定</a>
+				<div class="direct-search">
+					<span class="direct-select">直接输入：</span>
+					<input type="text" id="direct-input" class="direct-input" placeholder="请输入城市中文或拼音">
+					<a href="#" class="btn-sure input-btn">确定</a>
+					<div class="smalilaty-select">
+				</div>
+				</div>
+			</form>
+		</div>
+		<!-- 头部 END -->
+		<!-- 热门城市 START -->
+		<div class="g-clear area-hot">
+			<span class="area-hot-span">热门城市：</span>
+			<ul class="area-hot-ul g-clear">
+				<li class="area-hot-list">北京</li>
+				<li class="area-hot-list">北京</li>
+				<li class="area-hot-list">北京</li>
+				<li class="area-hot-list">北京</li>
+				<li class="area-hot-list">北京</li>
+				<li class="area-hot-list">北京</li>
+				<li class="area-hot-list">北京</li>
+				<li class="area-hot-list">北京</li>
+				<li class="area-hot-list">北京</li>
+			</ul>
+		</div>
+		<!-- 热门城市 END -->
+		<!-- 按拼音首字母选择 START -->
+		<div class="g-clear area-choice-first">
+			<span class="area-hot-span">按拼音首字母选择：</span>	
+			<ul class="g-clear area-choice-letter">
+				<li class="area-letter-list"><a href="#A">A</a></li>
+				<li class="area-letter-list"><a href="#B">B</a></li>
+				<li class="area-letter-list"><a href="#C">C</a></li>
+				<li class="area-letter-list"><a href="#D">D</a></li>
+				<li class="area-letter-list"><a href="#E">E</a></li>
+				<li class="area-letter-list"><a href="#F">F</a></li>
+				<li class="area-letter-list"><a href="#G">G</a></li>
+				<li class="area-letter-list"><a href="#H">H</a></li>
+				<li class="area-letter-list"><a href="#I">I</a></li>
+				<li class="area-letter-list"><a href="#J">J</a></li>
+				<li class="area-letter-list"><a href="#K">K</a></li>
+				<li class="area-letter-list"><a href="#L">L</a></li>
+				<li class="area-letter-list"><a href="#M">M</a></li>
+				<li class="area-letter-list"><a href="#N">N</a></li>
+				<li class="area-letter-list"><a href="#O">O</a></li>
+				<li class="area-letter-list"><a href="#P">P</a></li>
+				<li class="area-letter-list"><a href="#Q">Q</a></li>
+				<li class="area-letter-list"><a href="#R">R</a></li>
+				<li class="area-letter-list"><a href="#S">S</a></li>
+				<li class="area-letter-list"><a href="#T">T</a></li>
+				<li class="area-letter-list"><a href="#U">U</a></li>
+				<li class="area-letter-list"><a href="#V">V</a></li>
+				<li class="area-letter-list"><a href="#W">W</a></li>
+				<li class="area-letter-list"><a href="#S">S</a></li>
+				<li class="area-letter-list"><a href="#Y">Y</a></li>
+				<li class="area-letter-list"><a href="#Z">Z</a></li>
+			</ul>
+		</div>
+		<div class="area-letter-city">
+			<ul>
+				<li id="A" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>A</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a><a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="B" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>B</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="C" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>C</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="D" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>D</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item hot-city">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="E" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>E</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>I
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="F" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>F</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="G" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>G</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="H" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>H</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item hot-city">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="I" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>I</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a><a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="J" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>J</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="K" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>K</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="L" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>L</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item hot-city">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="M" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>M</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>I
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="N" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>N</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="O" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>O</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="P" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>P</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item hot-city">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="R" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>R</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item hot-city">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="S" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>S</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a><a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="T" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>T</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="U" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>U</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="V" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>V</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item hot-city">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="W" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>W</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>I
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+				<li id="X" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>X</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="Y" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>Y</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+						</span>
+					</div>
+				</li>
+				<li id="Z" class="letter-city-list">
+					<div class="letter-city-content">
+						<span class="letter-item"><em>Z</em></span>
+						<span class="city-content-items">
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安阳</a>
+							<a href="#" class="city-item">鞍山</a>
+							<a href="#" class="city-item hot-city">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安阳</a>
+							<a href="#" class="city-item hot-city">鞍山</a>
+							<a href="#" class="city-item">阿拉善盟</a>
+							<a href="#" class="city-item">阿拉善盟阿拉善盟阿拉善盟</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item hot-city">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+							<a href="#" class="city-item">安庆</a>
+						</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 按拼音首字母选择 END -->
+
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/area.js"></script>
+</body>
+</html>
