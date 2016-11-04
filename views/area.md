@@ -3,7 +3,8 @@
 * 数据结构：json（一个key对应一个value）
 * 利用ajax和data-*来实现数据筛选
 效果图：
-【】
+![](./arae.jpg)<br>
+
 ##### HTML内容
 ```HTML
 <div class="area-header">
@@ -51,7 +52,7 @@ $.ajax({
 
 
 
-//省市联动确认按钮操作
+	//省市联动确认按钮操作
 	$('.select-btn').click(function(){
 		var provinces = $('#provinces_select').val();
 		var city = $('#city_select').val();
