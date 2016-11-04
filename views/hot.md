@@ -2,7 +2,7 @@
 ### 人气热门商品推荐
 #### 1、效果
 效果图为：<br>
-![](http://github.com/HecateDK/-Classification/raw/master/views/hot.png)<br>
+![](./hot.png)<br>
   主要要达到隔两秒自动向左无缝滑动，鼠标焦点在图片上时滑动静止、并且“上一张”“下一张”按钮可供手动切换。
 #### 2、HTML内容
 ```HTML
