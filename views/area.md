@@ -4,7 +4,7 @@
 * 利用ajax和data-*来实现数据筛选<br>
 <br>
 效果图：
-![](./arae.jpg)<br>
+![](./Area.jpg)<br>
 
 ##### HTML内容
 ```HTML
