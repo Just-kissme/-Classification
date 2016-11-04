@@ -3,5 +3,5 @@
 
 
 * [商城头部简易切换选项](https://github.com/HecateDK/-Classification/blob/master/tabs.md)<br>
-* [广告长图滚动——应用Swiper插件](https://github.com/HecateDK/-Classification/edit/master/README.md)<br>
-* [人气热门商品推荐——应用Swiper插件](https://github.com/HecateDK/-Classification/edit/master/README.md)<br>
+* [广告长图滚动——应用Swiper插件](https://github.com/HecateDK/-Classification/blob/master/views/adsScroll.md)<br>
+* [人气热门商品推荐——应用Swiper插件](https://github.com/HecateDK/-Classification/blob/master/views/hot.md)<br>
