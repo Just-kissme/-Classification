@@ -6,7 +6,7 @@
 ![商城头部简易切换选项](https://github.com/HecateDK/-Classification/raw/master/views/F1FF.tmp.jpg)
 ##### HTML代码块
 ```html
-<!-- 顶部选择项目 START -->
+		<!-- 顶部选择项目 START -->
 		<div id="section_1" class="wrapper home-wrapper-c">
 			<ul class="g-clear sh-choice sh-choice-c">
 				<li class="sh-choice-list"><a href="#"><img src="images/food.png" alt="美食"><span class="choice-item">美食</span></a></li>
