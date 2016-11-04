@@ -27,8 +27,7 @@
 		</div>
 		<!-- 顶部选择项目 END -->
 ```
-	RGBA颜色半透明背景解决兼容性的问题主要参考了张鑫旭的一篇博客:
-	[RGBA颜色与兼容性的半透明背景色](http://www.zhangxinxu.com/wordpress/?p=839)
+RGBA颜色半透明背景解决兼容性的问题主要参考了张鑫旭的一篇博客: [RGBA颜色与兼容性的半透明背景色](http://www.zhangxinxu.com/wordpress/?p=839)
 ```CSS
  background: rgba(0,0,0,0.5);
  filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);

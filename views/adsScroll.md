@@ -10,7 +10,7 @@ Swiper的应用场景主要为：<br>
 * Swiper配合加上一些小动画，即可制作活灵活现的微场景、微海报。
 
 官网上关于Swiper插件功能的介绍是：
-![Powered With Top Notch Features](./Swiperower.png)
+![Powered With Top Notch Features](./SwiperPower.png)
 
 ### 2、小demo
 下面用项目所用到的部分代码，简单说一下Swiper的应用：
