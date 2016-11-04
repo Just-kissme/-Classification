@@ -1,7 +1,8 @@
 ### 地区选择——三级联动
 
 * 数据结构：json（一个key对应一个value）
-* 利用ajax和data-*来实现数据筛选
+* 利用ajax和data-*来实现数据筛选<br>
+<br>
 效果图：
 ![](./arae.jpg)<br>
 
